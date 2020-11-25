@@ -8,7 +8,6 @@ const error = (log) => {
 	console.error(log)
 }
 const readline = require('readline')
-//const core = require('./BFXCore')
 
 
 module.exports = {
