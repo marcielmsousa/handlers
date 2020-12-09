@@ -156,7 +156,7 @@ function httpsGet(url, callback) {
 				output += fragment
 			})
 			response.on('end', () => {
-				writeFile('./log/lastHttpsCall.log', output)
+				//writeFile('./log/lastHttpsCall.log', output)
 				resolve(output)
 				if (typeof callback == 'function') {
 					callback(output)
